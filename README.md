@@ -1,4 +1,4 @@
-# @codemirror/view [![NPM version](https://img.shields.io/npm/v/@codemirror/view.svg)](https://www.npmjs.org/package/@codemirror/view)
+Bienvenidos al IDSA!
 
 [ [**WEBSITE**](https://codemirror.net/) | [**DOCS**](https://codemirror.net/docs/ref/#view) | [**ISSUES**](https://github.com/codemirror/dev/issues) | [**FORUM**](https://discuss.codemirror.net/c/next/) | [**CHANGELOG**](https://github.com/codemirror/view/blob/main/CHANGELOG.md) ]
 
@@ -20,14 +20,14 @@ to communication around the project.
 ## Usage
 
 ```javascript
-import {EditorView} from "@codemirror/view"
-import {basicSetup} from "codemirror"
+import { EditorView } from "@codemirror/view";
+import { basicSetup } from "codemirror";
 
 const view = new EditorView({
   parent: document.querySelector("#some-node"),
   doc: "Content text",
-  extensions: [basicSetup /* ... */]
-})
+  extensions: [basicSetup /* ... */],
+});
 ```
 
 Add additional extensions, such as a [language
